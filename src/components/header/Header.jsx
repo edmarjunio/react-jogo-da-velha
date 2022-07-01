@@ -2,12 +2,16 @@ import styles from './Header.module.css'
 
 import Title from '../title/Title'
 import Subtitle from '../subtitle/Subtitle'
+import Icon from '../icon/Icon'
 
 function Header () {
     return (
         <div className={styles.header}>
-        <Title>TIC-TAC-TOE</Title>
-        <Subtitle>created by Edmar Júnio</Subtitle>
+            <Title>TIC-TAC-TOE</Title>
+            <Subtitle>created by Edmar Júnio</Subtitle>
+            <div className={styles.iconContent}>
+                <Icon iconName="github" link="http://github.com/edmarjunio" />
+            </div>
         </div>
     )
 }
