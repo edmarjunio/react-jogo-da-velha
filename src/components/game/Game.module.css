@@ -10,18 +10,4 @@
     gap: 30px;
     align-items: center;
     
-
-}
-
-.nextPlayer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 23px;
-    border: 1.5px solid white;
-    width: 110px;
-    height: 110px;
-    border-radius: 4px;
-    text-align: center;
-    
 }
