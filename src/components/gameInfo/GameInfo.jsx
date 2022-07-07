@@ -40,7 +40,7 @@ function GameInfo ({ currentPlayer, winner, onRestart }) {
               onClick={onRestart}
               disabled={!shouldEnableButton()}
             >
-              RESTART
+              <b>RESTART</b>
             </Button>            
         </div>
     )
