@@ -3,6 +3,7 @@ import styles from './Game.module.css'
 
 import GameOption from '../gameOption/GameOption'
 import GameInfo from '../gameInfo/GameInfo'
+import Score from '../score/Score'
 
 const winnerTable = [
     [0, 1, 2],
@@ -70,6 +71,7 @@ function Game () {
     }, [winner])
 
     return (
+      <>  
         <div className={styles.gameContent}>
             <div className={styles.game}>
             {
@@ -91,7 +93,8 @@ function Game () {
               isDraw={draw}
             />
         </div>
-        
+        <Score />
+      </>        
     )
 }
 
