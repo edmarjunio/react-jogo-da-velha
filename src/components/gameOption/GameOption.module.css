@@ -12,3 +12,7 @@
 .winner {
     border: 2px solid greenyellow;
 }
+
+.draw {
+    border: 2px solid rgb(255, 238, 0)
+}
